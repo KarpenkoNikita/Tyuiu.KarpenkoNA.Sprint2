@@ -18,6 +18,7 @@ namespace Tyuiu.KarpenkoNA.Sprint2.Task3.V10.Test
             Assert.AreEqual(wait, res);
 
         }
+        [TestMethod]
         public void ValidCondition2()
         {
             DataService ds = new DataService();
@@ -26,6 +27,7 @@ namespace Tyuiu.KarpenkoNA.Sprint2.Task3.V10.Test
             double wait = -1;
             Assert.AreEqual(wait, res);
         }
+        [TestMethod]
         public void ValidCondition3()
         {
             DataService ds = new DataService();
@@ -34,6 +36,7 @@ namespace Tyuiu.KarpenkoNA.Sprint2.Task3.V10.Test
             double wait = 0.167;
             Assert.AreEqual(wait, res);
         }
+        [TestMethod]
         public void ValidCondition4()
         {
             DataService ds = new DataService();
