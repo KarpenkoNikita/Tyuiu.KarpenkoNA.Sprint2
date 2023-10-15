@@ -49,8 +49,7 @@ namespace Tyuiu.KarpenkoNA.Sprint2.Task5.V8.Lib
                     n--;
                     break;
             }
-            res = " " + m + n;
-            //res = Convert.ToString(m, n);
+            res = "" + m + n;
             return res;
         }
     }
